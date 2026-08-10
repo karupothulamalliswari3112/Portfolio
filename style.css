@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 8%;
+
+    background-color: #111827;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Hero */
+
+#home {
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-color: #eff6ff;
+
+    padding: 50px 20px;
+}
+
+#home h1 {
+    font-size: 60px;
+    margin: 10px;
+}
+
+#home a {
+    background-color: #2563eb;
+    color: white;
+
+    padding: 12px 25px;
+    margin: 10px;
+
+    border-radius: 6px;
+
+    text-decoration: none;
+}
+
+
+/* Sections */
+
+section {
+    padding: 70px 8%;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* Skills */
+
+#skills ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#skills li {
+    padding: 10px 20px;
+
+    background-color: #eff6ff;
+    color: #2563eb;
+
+    border-radius: 20px;
+}
+
+
+/* Projects */
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#projects h2 {
+    width: 100%;
+}
+
+#projects article {
+    width: 300px;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 15px #ddd;
+}
+
+
+/* Contact */
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 30px;
+    text-align: center;
+
+    background-color: #111827;
+    color: white;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #home h1 {
+        font-size: 40px;
+    }
+
+    #projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #projects article {
+        width: 100%;
+        max-width: 400px;
+    }
+}
