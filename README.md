@@ -55,7 +55,9 @@ I am a B.Tech Computer Science and Engineering student at Ashoka Women's Enginee
 |---------|------|------------|
 | Library Management System | Java, OOP, Collections, Exception Handling | [View](https://github.com/karupothulamalliswari3112/Library-Management-System) |
 | Advanced Student Result Management System | Python, CSV, File Handling | [View](https://github.com/karupothulamalliswari3112/Advanced-Student-Result-Management-System) |
-| Cognifyz Web Development Internship Tasks | HTML, CSS, JavaScript, Bootstrap | [View](https://github.com/karupothulamalliswari3112/Cognifyz-Web-Development-Internship) |
+| DFA Email & Password Validator | JavaScript, HTML, CSS, Web Speech API | [View](https://github.com/karupothulamalliswari3112/DFA-Email-Password-Validator) |
+| Cognifyz Web Development Internship Tasks (live demos) | HTML, CSS, JavaScript, Bootstrap | [View](https://github.com/karupothulamalliswari3112/Cognifyz-Web-Development-Internship) |
+| Java Practice (day-by-day programs) | Core Java | [View](https://github.com/karupothulamalliswari3112/Java-Practice) |
 
 ---
 
