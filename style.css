@@ -104,6 +104,8 @@ h2{font-size:clamp(2rem,4vw,3rem);font-weight:800;letter-spacing:-.03em}
 .proj-side{display:flex;flex-direction:column;justify-content:space-between;gap:20px}
 .tags{display:flex;flex-wrap:wrap;gap:8px}
 .tags span{background:var(--alt);border:1px solid var(--line);padding:4px 12px;border-radius:99px;font-size:.8rem}
+.links{display:flex;gap:18px;flex-wrap:wrap}
+.more{padding:6px 4px;color:var(--muted)}
 .link{font-weight:600;color:var(--blue);display:inline-flex;gap:8px;align-items:center}
 .link:hover{text-decoration:underline;text-underline-offset:4px}
 
